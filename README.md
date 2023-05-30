@@ -1,16 +1,21 @@
 # Route Planner
 
 This is a simple project in C++ to implement a route planner for a vehicle (or pedestrian, etc.).
+Simple mostly because the starter code was robust, I changed `main.cpp` and implemented modularized
+code for A* search using Euclidean distance from point to end point as the h(euristic) value.
 
 The program takes in an XML file of data (named as an OSM file) represented as nodes, ways, and relations.
 Nodes are points with x and y coordinates and metadata, ways are collections of points representing a path, 
 and relations are groups of ways (e.g. multiple paths representing a freeway course). 
 
-I implemented A* search in C++ in `main.cpp` and `route-planner.cpp`.
-
 Specifically, I:
 
-- 
+- Used the extraction operator `>>` to save user input in [`main.cpp`](). Used implicit conversion from int to float 
+during variable reassignment of start and end coordinates. Using floats means the user is forced to write the
+number as a float e.g. `10f` or `10.0`.
+- Filled out methods in [`route_planner.cpp`](), with helpful comments on potential errors and additional information.
+All methods filled out are marked by a TODO. :~)
+
 
 <img src="map.png" width="600" height="450" />
 

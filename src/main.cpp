@@ -60,6 +60,7 @@ int main(int argc, const char **argv)
     std::cout << "Please enter the start and end coordinates in the following format: start_x, start_y, end_x, end_y. \n";
     std::cout << "Please note that the , and . are necessary for input collection to work. \n";
 
+    // No bounds check because did not want to make a while loop, rubric asks for 0-100 for values though
     int n;
     char c;
     std::cin >> n >> c;
@@ -72,7 +73,6 @@ int main(int argc, const char **argv)
     end_y = n;
 
     // Old debug statement: std::cout << "Coords : " << start_x << start_y << end_x << end_y;
-
 
 
     // Build Model.
