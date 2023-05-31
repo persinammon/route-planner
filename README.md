@@ -1,8 +1,10 @@
 # Route Planner
 
 This is a simple project in C++ to implement a route planner for a vehicle (or pedestrian, etc.).
-Simple mostly because the starter code was robust, I changed `main.cpp` and implemented modularized
-code for A* search using Euclidean distance from point to end point as the h(euristic) value.
+Simple mostly because the starter code was robust. I changed `main.cpp` and implemented modularized
+code for A* search using Euclidean distance from point to end point as the h(euristic) value. 
+I used the full range of references, pointers, and syntactical sugar -> to implement methods, which was
+a welcome change from previous projects in Java and Python.
 
 The program takes in an XML file of data (named as an OSM file) represented as nodes, ways, and relations.
 Nodes are points with x and y coordinates and metadata, ways are collections of points representing a path, 
@@ -14,7 +16,7 @@ Specifically, I:
 during variable reassignment of start and end coordinates. Using floats means the user is forced to write the
 number as a float e.g. `10f` or `10.0`.
 - Filled out methods in [`route_planner.cpp`](), with helpful comments on potential errors and additional information.
-All methods filled out are marked by a TODO. :~)
+All methods filled out are marked by a TODO. :~) As said earlier, worked with pointers and references.
 
 
 <img src="map.png" width="600" height="450" />
