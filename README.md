@@ -12,11 +12,10 @@ and relations are groups of ways (e.g. multiple paths representing a freeway cou
 
 Specifically, I:
 
-- Used the extraction operator `>>` to save user input in [`main.cpp`](). Used implicit conversion from int to float 
+- Used the extraction operator `>>` to save user input in [`main.cpp`](https://github.com/persinammon/route-planner/blob/9f34fca4a298f2df728e25314f6201942cfc26a1/src/main.cpp#L64). Used implicit conversion from int to float 
 during variable reassignment of start and end coordinates. Using floats means the user is forced to write the
 number as a float e.g. `10f` or `10.0`.
-- Filled out methods in [`route_planner.cpp`](), with helpful comments on potential errors and additional information.
-All methods filled out are marked by a TODO. :~) As said earlier, worked with pointers and references.
+- Filled out methods in [`route_planner.cpp`](https://github.com/persinammon/route-planner/blob/main/src/route_planner.cpp), with helpful comments on potential errors and additional information. All methods filled out are marked by a TODO. :~) As said earlier, worked with pointers and references.
 
 
 <img src="map.png" width="600" height="450" />
