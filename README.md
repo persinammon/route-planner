@@ -1,8 +1,7 @@
 # Route Planner
 
-This is a simple project in C++ to implement a route planner for a vehicle (or pedestrian, etc.).
-Simple mostly because the starter code was robust. I changed `main.cpp` and implemented modularized
-code for A* search using Euclidean distance from point to end point as the h(euristic) value. 
+This is a C++ implementation of a route planner for a vehicle (or pedestrian, etc.).
+I changed `main.cpp` and implemented modularized code for A* search using Euclidean distance from point to end point as the h(euristic) value. 
 I used the full range of references, pointers, and syntactical sugar -> to implement methods, which was
 a welcome change from previous projects in Java and Python.
 
